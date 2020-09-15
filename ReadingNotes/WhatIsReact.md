@@ -2,6 +2,7 @@
 - [react.org](https://reactjs.org/)
 
 > A JavaScript library for building user interfaces
+> React is a declarative, efficient, and flexible JavaScript library for building user interfaces.
 
 ## Declariative 
 - Making interactive UIs painless to create.
@@ -170,6 +171,8 @@ ReactDom.render(
 )
 ```
 
-### Package install
+## Package install
 - npm install create-react-app
 - npx create-react-app .
+
+## Different Types of Components 
