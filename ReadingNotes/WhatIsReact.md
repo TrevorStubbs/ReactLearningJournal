@@ -176,3 +176,38 @@ ReactDom.render(
 - npx create-react-app .
 
 ## Different Types of Components 
+
+## JSX
+- A special syntax that helps build html tags
+
+``` JavaScript
+class ShoppingList extends React.Components{
+  render(){
+    return(
+      <div className="shopping-list">
+        <h1>Shopping list for {this.props.name}</h1>
+        <ul>
+          <li>Instagram</li>
+          <li>WhatsApp</li>
+          <li>Oculus</li>
+        </ul>
+      </div>
+    );
+  }
+}
+```
+gets turned into
+``` JavaScript
+render(){
+  return React.createElement('div', {className: 'shopping-list'},
+    React.createElement('h1', null, "Shopping List for", props.name),
+    React.createElement('ul', null, 
+      React.createElement('li', null, 'Instagram'), 
+      React.createElement('li', null, 'WhatsApp'),
+      React.createElement('li', null, 'Oculus')  
+    )
+  );
+}
+```
+- can render custom react components
+  - `<ShoppingList />`
