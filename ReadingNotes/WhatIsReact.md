@@ -220,7 +220,7 @@ render(){
 - Tell React to create a normal HTML element
 - Tell React to show another component
 
-## React Libarary
+## React Library
 - Knows how to work with components
 - Called a 'reconciler'
 
@@ -229,6 +229,6 @@ render(){
 - Called a 'renderer'
 
 ## UseState?
-- Function for workign with React's 'state' system
-- State is used to keep track of data taht chanes over time
+- Function for working with React's 'state' system
+- State is used to keep track of data that changes over time
 - used to make React update HTML on the screen
