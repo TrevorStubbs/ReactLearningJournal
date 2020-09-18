@@ -4,7 +4,7 @@
 > A JavaScript library for building user interfaces
 > React is a declarative, efficient, and flexible JavaScript library for building user interfaces.
 
-## Declariative 
+## Declarative 
 - Making interactive UIs painless to create.
 - Designing simple views for each state in an app. 
 - React will efficiently update and render the correct components when data changes.
@@ -210,4 +210,25 @@ render(){
 }
 ```
 - can render custom react components
-  - `<ShoppingList />`
+    - `<ShoppingList />`
+
+## What is a component?
+- Produces JSX 
+- Handles user events
+
+## JSX Elements
+- Tell React to create a normal HTML element
+- Tell React to show another component
+
+## React Libarary
+- Knows how to work with components
+- Called a 'reconciler'
+
+## React DOM
+- Knows how to take instructions on what we want to show and turn it into HTML
+- Called a 'renderer'
+
+## UseState?
+- Function for workign with React's 'state' system
+- State is used to keep track of data taht chanes over time
+- used to make React update HTML on the screen
