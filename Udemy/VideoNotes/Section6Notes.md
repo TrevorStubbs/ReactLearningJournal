@@ -22,3 +22,9 @@
 
 - Convention says do all data loading inside componentDidMount.
  2.38
+
+ ## Rules of Class Components
+ - Must be a JavaScript Class
+ - Must extend React.Component
+ - Must define a 'render' method that returns some amount of JSX
+
