@@ -29,3 +29,4 @@
     - the current instance of the class
 - How is the value of 'this' determined in a function?
     - Look at where we call the method to determine `this`
+- `this.[functionName].bind(this)`
