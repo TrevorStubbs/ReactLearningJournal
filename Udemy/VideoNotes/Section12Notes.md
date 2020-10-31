@@ -29,5 +29,5 @@
         - `useEffect(callback)`
     - When the component is rendered for the first time and (whenever it rerenders and some piece of data has changed)
         - `useEffect(callback, [something])`
-    
+- cannot use `async` and `await` in `useEffect()`   
  
