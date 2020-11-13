@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import { queryAllByAltText } from '@testing-library/react';
 
 const Search = () => {
   const [term, setTerm] = useState('Programming');
