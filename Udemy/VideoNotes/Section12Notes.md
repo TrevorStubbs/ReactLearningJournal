@@ -33,3 +33,5 @@
 - cannot use `async` and `await` directly in `useEffect()`   
  
 - useEffect() can only `return` a callback function
+
+- useRef - Get a reference to a DOM element
