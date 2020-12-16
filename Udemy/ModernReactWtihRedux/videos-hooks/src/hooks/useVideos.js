@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+// dont need React since there is no JSX
 import youtube from '../apis/youtube';
 
 const useVideos = (defaultSearchTerm) => {
